@@ -1,0 +1,56 @@
+{   "splash": {        
+        "iframe": "stories/paysage-1/accueil.html"
+    },
+    "theme": {"css":"style.css"},
+    "tooltip" : {"fields": ["title"]},
+	"map": {
+		"center": [-191007,6132645],
+		"zoom": 14,
+		"width": "100%",
+        "overview": false,
+        "url" : "https://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+        "animation": false
+	},
+	"data": {
+        "title": "L'aménagement de l'interface ville/campagne à Vitré (2000-2020)" ,
+        "subtitle":"",
+        "template": {"name": "carousel"},
+		"url": "stories/paysage-1/dataV6.geojson",
+        "orderby": "rang",
+		"fields": [],
+        "id": "cle",
+        "tpl": "stories/paysage/template.mst",
+        "analyse": {
+            "type": "single",
+			"field": "",
+			"values": [],
+			"styles": [
+                {
+                    "stroke": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "width": 4
+                    },
+                     "icon": {
+                        "src" : "stories/paysage/image/pins.svg",
+                        "scale" : 0.07
+                    }
+                }
+            ]
+		},		
+		"hightlightstyle": {
+            "icon": {
+                "src" : "stories/paysage/image/pins_light2.svg",
+                "scale" : 0.09
+            },
+            "stroke": {
+                        "color": "rgba(0,0,0,0)",
+                        "width": 6
+                    }
+		}
+	},
+	"extradata": {
+		"url": "",
+		"linkfield" : ""
+	}
+
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "data",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "01", "title": "Moulin", "descriptif": "descriptif du moulin", "image": "stories\/paysage\/image\/moulin.jpg", "lien": "http:\/\/eso-rennes.cnrs.fr\/fr\/formation-a-la-recherche\/h-d-r\/porcq-charlotte.html", "categorie": "patrimoine" }, "geometry": { "type": "Point", "coordinates": [ -198441.258001325972145, 6132942.027091151103377 ] } },
+{ "type": "Feature", "properties": { "id": "02", "title": "Château", "descriptif": "Descriptif du château", "image": "stories\/paysage\/image\/chateau.jpg", "lien": "http:\/\/eso-rennes.cnrs.fr\/fr\/formation-a-la-recherche\/h-d-r\/porcq-charlotte.html", "categorie": "environnement" }, "geometry": { "type": "Point", "coordinates": [ -185653.616624465794303, 6126696.899907102808356 ] } },
+{ "type": "Feature", "properties": { "id": "03", "title": "Manoir", "descriptif": "Descriptif du manoir", "image": "stories\/paysage\/image\/manoir.jpg", "lien": "http:\/\/eso-rennes.cnrs.fr\/fr\/formation-a-la-recherche\/h-d-r\/porcq-charlotte.html", "categorie": "patrimoine" }, "geometry": { "type": "Point", "coordinates": [ -185058.84260693739634, 6137105.445213849656284 ] } }
+]
+}

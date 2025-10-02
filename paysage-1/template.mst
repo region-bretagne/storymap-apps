@@ -1,0 +1,26 @@
+<div class="container-fluid">
+	<div class="ks-bg">
+		<div class="row">
+			<h2>{{titre}}</h2>
+            <span id=numEtape>Étape {{rang}}:</span>
+            <h3>{{sous-titre}}</h3>
+		</div>
+		<div class="row">
+			<div class="image">			
+				<img class="img-responsive image-popup" src="{{image}}"/>
+			</div>
+            <h4 class="legendePhoto">{{Source_Photo}}</h4>
+			<p class="resume">{{p1}}</p>			
+			<a class="ks-btn" title="Ouvrir dans une nouvelle fenêtre" href="{{lien}}" target="_blank">En savoir plus</a>
+		</div>	
+	</div>
+	<div class="ks-xs" style="background-image: url({{image}}); background-size:cover; background-position: center; background-repeat: no-repeat;">
+		<div class="row">
+			<h2>{{titre}}</h2>
+		</div>	
+		<div class="ks-bottom">  			
+			<a type="button" class="ks-btn" href="#" data-toggle="modal" data-target="#myModal" data-modal-title="Descriptif" data-modal-body="{{descriptif}}"><img src="stories/paysage/image/info.svg" style="width:5%"/></a>
+			<a type="button" class="ks-btn" style="padding-left:15px!important;padding-right:15px!important;margin-left:8px!important;"title="Ouvrir dans une nouvelle fenêtre" href="{{lien}}" target="_blank">En savoir plus</a>
+		</div>
+	</div>
+</div>
